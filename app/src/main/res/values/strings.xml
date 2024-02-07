@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HomeTask3</string>
+    <string name="item_id">%1$d</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="empty_value">Value is empty</string>
+</resources>

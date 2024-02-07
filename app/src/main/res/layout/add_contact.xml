@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/contactPhoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone number"
+        android:inputType="phone"
+        android:maxLines="1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/contactFirstNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Enter first name"
+        android:inputType="textPersonName"
+        android:maxLines="1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/contactLastNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Enter last name"
+        android:inputType="textPersonName"
+        android:maxLines="1" />
+
+</LinearLayout>
